@@ -12,7 +12,7 @@ public class JBuzzTest {
         assertEquals("fizz", fizz_3);
     }
     public void fizz7() {
-        int fizz_7 = fizzbuzz.play(7);
+        String fizz_7 = fizzbuzz.play(7);
         assertEquals(7, fizz_7);
     }
 

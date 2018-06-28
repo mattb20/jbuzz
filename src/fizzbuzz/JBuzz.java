@@ -6,7 +6,12 @@ public class JBuzz {
         if ((n % 3) == 0) {
             return "fizz";
         } else {
-            return "You lost";
+            return return_integer(n);
         }
+    }
+
+    public static String return_integer(int n)
+    {
+        return Integer.toString(n);
     }
 }
