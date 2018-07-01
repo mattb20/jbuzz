@@ -21,9 +21,9 @@ public class JBuzzTest {
     }
 
     public void will_return_correct_array() {
-        int numbers[] = new int[]{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
+        String numbers[] = new String[]{"1","2","3","4","5","6","7","8","9","10","11","12","13","14","15"};
         JBuzz javabuzz = new JBuzz();
-        javabuzz.fizzbuzz();
+        javabuzz.fizzbuzz(numbers);
     }
 
 }

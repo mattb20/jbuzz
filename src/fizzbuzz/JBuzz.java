@@ -14,4 +14,8 @@ public class JBuzz {
     {
         return Integer.toString(n);
     }
+
+    public static String[] fizzbuzz(String numbers[]) {
+
+    }
 }
