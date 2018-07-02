@@ -16,13 +16,16 @@ public class JBuzz {
     }
 
     public static String[] fizzbuzz(String numbers[]) {
-        for (String number : numbers) {
-            int i = 0;
-            if ((Integer.parseInt(number) % 3) == 0) {
+        for (int i = 0; i < numbers.length; i++) {
+            if ((Integer.parseInt(numbers[i]) % 3) == 0) {
                 numbers[i] = "fizz";
-            } else if(Integer.parseInt(number) % 5 == 0){
-
+            } else if(Integer.parseInt(numbers[i]) % 5 == 0){
+                numbers[i] = "buzz";
+            } else if (Integer.parseInt(numbers[i]) % 15 == 0) {
+                numbers[i] = "fizzbuzz";
             }
+            return numbers;
         }
+        return numbers;
     }
 }
