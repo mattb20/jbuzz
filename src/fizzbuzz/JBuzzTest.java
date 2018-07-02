@@ -16,7 +16,7 @@ public class JBuzzTest {
     @Test
     public void will_return7() {
         String number_7 = fizzbuzz.play(7);
-        assertEquals(7, number_7);
+        assertEquals("7", number_7);
     }
     @Test
     public void will_fizz_buzz15() {
