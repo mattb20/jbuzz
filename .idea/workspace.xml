@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc5beddf-27c9-4a8b-a866-31f6e8583e15" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JBuzz/fizzbuzz/JBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JBuzz/fizzbuzz/JBuzz.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fizzbuzz/JBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fizzbuzz/JBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fizzbuzz/JBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fizzbuzz/JBuzzTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,18 +15,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.49689442">
+    <splitter split-orientation="vertical" split-proportion="0.81070745">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="JBuzzTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/fizzbuzz/JBuzzTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="405">
+                  <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="JBuzz.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/fizzbuzz/JBuzz.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="19">
-                  <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-                  <folding>
-                    <element signature="e#271#272#0" expanded="true" />
-                    <element signature="e#313#314#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="259">
+                  <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -37,7 +46,7 @@
           <file leaf-file-name="JBuzzTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/fizzbuzz/JBuzzTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="56">
+                <state relative-caret-position="37">
                   <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -71,9 +80,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="76" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="820" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -81,8 +90,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.JBuzzTest.will_return_correct_array">
     <configuration name="JBuzzTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="JBuzz" />
       <extension name="coverage">
@@ -169,6 +178,29 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="JBuzzTest.will_return_correct_array" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JBuzz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fizzbuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="fizzbuzz" />
+      <option name="MAIN_CLASS_NAME" value="fizzbuzz.JBuzzTest" />
+      <option name="METHOD_NAME" value="will_return_correct_array" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -208,8 +240,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Android JUnit.JBuzzTest" />
+      <item itemvalue="JUnit.JBuzzTest.will_return_correct_array" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JBuzzTest.will_return_correct_array" />
         <item itemvalue="Android JUnit.JBuzzTest" />
       </list>
     </recent_temporary>
@@ -228,24 +265,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JBuzzTest - 2018.07.02 at 06h 13m 14s.xml">
-      <configuration name="JBuzzTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JBuzzTest - 2018.07.02 at 06h 16m 06s.xml">
-      <configuration name="JBuzzTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JBuzzTest - 2018.07.02 at 06h 17m 09s.xml">
-      <configuration name="JBuzzTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JBuzzTest - 2018.07.02 at 06h 21m 49s.xml">
-      <configuration name="JBuzzTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JBuzzTest - 2018.07.02 at 06h 23m 54s.xml">
-      <configuration name="JBuzzTest" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="JBuzzTest - 2018.07.02 at 06h 24m 38s.xml">
-      <configuration name="JBuzzTest" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="JBuzzTest - 2018.07.02 at 06h 25m 29s.xml">
       <configuration name="JBuzzTest" configurationId="AndroidJUnit" />
     </history-entry>
@@ -258,9 +277,27 @@
     <history-entry file="JBuzzTest - 2018.07.02 at 07h 03m 41s.xml">
       <configuration name="JBuzzTest" configurationId="AndroidJUnit" />
     </history-entry>
+    <history-entry file="JBuzzTest - 2018.07.02 at 07h 04m 31s.xml">
+      <configuration name="JBuzzTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JBuzzTest - 2018.07.02 at 07h 06m 20s.xml">
+      <configuration name="JBuzzTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JBuzzTest - 2018.07.02 at 08h 45m 48s.xml">
+      <configuration name="JBuzzTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JBuzzTest - 2018.07.02 at 13h 49m 34s.xml">
+      <configuration name="JBuzzTest" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="JBuzzTest_will_return_correct_array - 2018.07.03 at 06h 28m 07s.xml">
+      <configuration name="JBuzzTest.will_return_correct_array" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JBuzzTest_will_return_correct_array - 2018.07.03 at 06h 29m 30s.xml">
+      <configuration name="JBuzzTest.will_return_correct_array" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="76" width="1440" height="820" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -271,12 +308,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.509299" side_tool="true" weight="0.32934928" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.490701" visible="true" weight="0.54" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.490701" weight="0.3054449" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.7846924" weight="0.22857143" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.7846924" visible="true" weight="0.118193895" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11874106" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12017167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -297,12 +334,25 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/fizzbuzz/JBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fizzbuzz/JBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fizzbuzz/JBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="36" />
-          <folding>
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -393,7 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fizzbuzz/JBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
+        <state relative-caret-position="405">
           <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -403,12 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fizzbuzz/JBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="259">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
